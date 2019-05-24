@@ -1,7 +1,7 @@
-public class deck {
+public class Deck {
     String deckName;
 
-    public deck(String deckName) {
+    public Deck(String deckName) {
         this.deckName = deckName;
     }
 }
