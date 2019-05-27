@@ -24,6 +24,7 @@ public class cardsTest {
        List<Card> cards=new ArrayList<>();
        Card card =new Card("what is the notation for n number of choice with replacement","n!");
        programming.addCard("what is the notation for n number of choice with replacement","n!");
-       assertEquals("[what is the notation for n number of choice with replacement,n!]",programming.addCard().toString());
+       cards.add(card);
+       assertEquals("[what is the notation for n number of choice with replacement,n!]",cards.toString());
    }
 }
