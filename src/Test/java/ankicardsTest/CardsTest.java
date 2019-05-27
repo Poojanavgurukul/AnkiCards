@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class cardsTest {
+public class CardsTest {
    @Test public void itShouldGiveDeckName(){
        Deck Maths=new Deck("Maths");
        String expected="Maths";
@@ -25,6 +25,6 @@ public class cardsTest {
        Card card =new Card("what is the notation for n number of choice with replacement","n!");
        programming.addCard("what is the notation for n number of choice with replacement","n!");
        cards.add(card);
-       assertEquals("[what is the notation for n number of choice with replacement,n!]",cards.toString());
+       assertEquals(cards,programming.addCard());
    }
 }
