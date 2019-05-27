@@ -20,10 +20,10 @@ public class cardsTest {
        assertEquals(expected,content.toString());
    }
    @Test public void cardShouldBeAddInDeck(){
-       Deck Maths=new Deck("programming");
+       Deck programming=new Deck("programming");
        List<Card> cards=new ArrayList<>();
        Card card =new Card("what is the notation for n number of choice with replacement","n!");
-       Maths.cardInDeck("what is the notation for n number of choice with replacement","n!");
-       assertEquals("[what is the notation for n number of choice with replacement,n!]",Maths.cardInDeck().toString());
+       programming.addCard("what is the notation for n number of choice with replacement","n!");
+       assertEquals("[what is the notation for n number of choice with replacement,n!]",programming.addCard().toString());
    }
 }

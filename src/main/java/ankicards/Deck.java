@@ -11,11 +11,11 @@ public class Deck {
         this.name = name;
     }
 
-    public void cardInDeck(String front,String back){
+    public void addCard(String front, String back){
         Card card =new Card(front,back);
         cards.add(card);
     }
-    public List<Card> cardInDeck() {
+    public List<Card> addCard() {
         return cards;
     }
 }
