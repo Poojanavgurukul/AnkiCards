@@ -11,4 +11,7 @@ public class cardsTest {
        String expected="Maths";
        assertEquals(expected,name.name);
    }
+   @Test public void itShouldGiveCardContent(){
+
+   }
 }
