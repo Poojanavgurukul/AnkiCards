@@ -1,3 +1,5 @@
+package ankicards;
+
 import java.util.Objects;
 
 public class Card {
@@ -7,5 +9,10 @@ public class Card {
     public Card(String front, String back) {
         this.front = front;
         this.back = back;
+    }
+
+    @Override
+    public String toString() {
+        return front+","+back;
     }
 }
