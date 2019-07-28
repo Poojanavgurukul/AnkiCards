@@ -15,7 +15,7 @@ public class Deck {
         Card card =new Card(front,back);
         cards.add(card);
     }
-    public List<Card> addCard() {
+    public List<Card>getCards() {
         return cards;
     }
 }

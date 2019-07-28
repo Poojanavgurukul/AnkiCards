@@ -14,13 +14,12 @@ public class CardsTest {
        String expected="Maths";
        assertEquals(expected,Maths.name);
    }
-
    @Test public void cardShouldBeAddInDeck(){
        Deck programming=new Deck("programming");
        List<Card> cards=new ArrayList<>();
        Card card =new Card("what is the notation for n number of choice with replacement","n!");
        programming.addCard("what is the notation for n number of choice with replacement","n!");
        cards.add(card);
-       assertEquals(cards,programming.addCard());
+       assertEquals(cards,programming.getCards());
    }
 }
