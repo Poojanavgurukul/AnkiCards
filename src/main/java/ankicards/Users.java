@@ -12,7 +12,7 @@ public class Users {
             System.out.println(cards.front);
             System.out.println("Show Answer");
             String  showAnswer = input.nextLine();
-            System.out.println( "Answer:- " +cards.back);
+            System.out.println( "Answer:- " +cards.back);return;
         }
     }
 }

@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class CardsTest {
+public class AnkiCardTest {
    @Test public void itShouldGiveDeckName(){
        Deck Maths=new Deck("Maths");
        String expected="Maths";
@@ -16,10 +16,10 @@ public class CardsTest {
    }
    @Test public void cardShouldBeAddInDeck(){
        Deck programming=new Deck("programming");
-       List<Card> cards=new ArrayList<>();
+       List<Card> expextedCards=new ArrayList<>();
        Card card =new Card("what is the notation for n number of choice with replacement","n!");
        programming.addCard("what is the notation for n number of choice with replacement","n!");
-       cards.add(card);
-       assertEquals(cards,programming.getCards());
+       expextedCards.add(card);
+       assertEquals(expextedCards,programming.getCards());
    }
 }
